@@ -1,0 +1,10 @@
+/* Pre ajustes */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* overflow-x: hidden; */
+}
