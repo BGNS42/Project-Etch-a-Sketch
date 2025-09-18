@@ -8,3 +8,23 @@
     border: 0;
     /* overflow-x: hidden; */
 }
+
+#grid {
+    border: 2px dotted green;
+    display: flex;
+    /* min-height: 100vh; */
+    max-width: 500px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+}
+
+.square:hover {
+    background-color: lightblue;
+}
