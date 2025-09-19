@@ -9,22 +9,31 @@
     /* overflow-x: hidden; */
 }
 
-#grid {
-    border: 2px dotted green;
+.board {
+    border: 2px solid red;
     display: flex;
     /* min-height: 100vh; */
-    max-width: 500px;
+    max-width: 510px;
+    max-height: 510px;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 
 .square {
-    border: 2px solid black;
-    height: 30px;
-    width: 30px;
+    border: 1px solid black;
 }
 
 .square:hover {
     background-color: lightblue;
+}
+
+.btn {
+    border: 2px solid gray;
+    height: auto;
+
+}
+
+.mostraDiv {
+    border: 2px solid black;
 }
