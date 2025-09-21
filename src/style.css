@@ -17,6 +17,13 @@
     margin-top: 8px;
 }
 
+.btnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
 .board {
     border: 1px solid red;
     display: flex;
@@ -38,6 +45,7 @@
 .btn {
     border: 2px solid gray;
     height: auto;
+    padding: 2px;
 }
 
 .mostraDiv {
